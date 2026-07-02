@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-Frame</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+<body>
+
+<a-scene background="color: yellow">
+
+    <a-camera position="0 0 0"></a-camera>
+
+    <a-entity position="0 0 -8">
+
+        <!-- Arriba -->
+        <a-box position="0 1 0" color="red">
+            <a-entity 
+                position="0 0.7 0"
+                rotation="360 0 0"
+                text="value: Conviértete en el cambio que deseas ver en el mundo.; width: 3; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+        <!-- Abajo -->
+        <a-box position="0 -1 0" color="red">
+            <a-entity 
+                position="0 -0.7 0"
+                rotation="360 0 0"
+                text="value: El liderazgo no se trata de títulos, se trata de inspirar.; width: 3; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+        <!-- Izquierda -->
+        <a-box position="-1 0 0" color="blue">
+            <a-entity 
+                position="-0.6 0 0"
+                rotation="0 -90 0"
+                text="value: No esperes a que te necesiten, crea la necesidad.; width: 2; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+        <!-- Derecha -->
+        <a-box position="1 0 0" color="blue">
+            <a-entity 
+                position="0.6 0 0"
+                rotation="0 90 0"
+                text="value: tu potencial es infinito, atrévete a explorarlo; width: 2; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+        <!-- Frente -->
+        <a-box position="0 0 1" color="green">
+            <a-entity 
+                position="0 0 0.6"
+                rotation="0 0 0"
+                text="value: No tengas miedo de fallar, ten miedo de no intentarlo.; width: 2; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+        <!-- Atrás -->
+        <a-box position="0 0 -1" color="green">
+            <a-entity 
+                position="0 0 -0.6"
+                rotation="0 180 0"
+                text="value:El éxito no es un destino, es un viaje, disfrútalo; width: 2; color: black; align: center;">
+            </a-entity>
+        </a-box>
+
+    </a-entity>
+
+</a-scene>
+
+</body>
+</html>
